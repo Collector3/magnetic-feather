@@ -34,7 +34,7 @@ A magnetic battery case for Adafruit's Feather series. Flexible enough to use fo
 
 * 1x 1.75mm filament, cut to length for the magnet retainer slot
 
-* Glue (optional) to fix the filament in place
+* Glue/epoxy (optional) to fix the filament in place
 
 ### Assembly
 
@@ -68,9 +68,15 @@ There is no cover for this configuration -- the JST jack is also obstructed.
 
 In most configurations, only one hex screw is needed. Tighten carefully, as neighboring parts are sometimes a whisker's width away.
 
+### Using the Enable Pin To Disconnect Power
+
 ![ESP32 Enable Pin](png/esp32-enable-pin.png)
 
-On the ESP32: With the enable pin pulled low, power consumption drops to around 100μA. Nominal consumption with the default program (scans for APs) is around 130mA.
+On the ESP32: With the enable pin pulled low, quiescent power consumption drops to around 100μA. Nominal consumption with the default program (which scans for SSIDs) is around 130mA (burst).
+
+With a full battery, using the ENable pin to disconnect power drains a 350 mAh battery in about 100 days (optimisic estimate with an adjustment factor of 0.7).
+
+### Fin
 
 ![ESP32 magnetic personality](png/esp32-magnetic-personality-2.png)
 
