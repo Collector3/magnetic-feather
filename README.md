@@ -72,7 +72,7 @@ In most configurations, only one hex screw is needed. Tighten carefully, as neig
 
 ![ESP32 Enable Pin](png/esp32-enable-pin.png)
 
-On the ESP32: With the enable pin pulled low, quiescent power consumption drops to around 100μA. Nominal consumption with the default program (which scans for SSIDs) is around 130mA (burst).
+On the ESP32: Nominal consumption with the default program (which scans for SSIDs) is around 130mA (burst). With the enable pin pulled low, quiescent power consumption is around 100μA.
 
 With a full battery, using the ENable pin to disconnect power drains a 350 mAh battery in about 100 days (optimisic estimate with an adjustment factor of 0.7).
 
