@@ -14,7 +14,7 @@ A magnetic battery case for Adafruit's Feather series. Flexible enough to use fo
 
 * Cable management / routing slots
 
-* Upside down case support (lightly tested)
+* Upside down board support (lightly tested)
 
 ### Materials
 
