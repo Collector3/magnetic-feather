@@ -1,8 +1,8 @@
 # Magnetic Feather Case
 
-![Case With Feather Wing Attached](png/blue-covered-powered.png)
+A case with room for a magnet and battery. Designed for [Adafruit's Feather series](https://learn.adafruit.com/adafruit-feather/overview). Flexible enough to use from development to deployment.
 
-A magnetic battery case for Adafruit's Feather series. Flexible enough to use for development and short deployments.
+![Case With Feather Wing Attached](png/blue-covered-powered.png)
 
 ### Features
 
