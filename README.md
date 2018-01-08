@@ -6,7 +6,7 @@ A case with room for a magnet and battery. Designed for [Adafruit's Feather seri
 
 ### Features
 
-* Compartment for a 350mAh LiPoly battery (with zip-tie strain relief slots)
+* Compartment for a 350mAh LiPoly battery (with a zip-tie strain relief slot)
 
 * Slot for a rare earth badge magnet (source provided)
 
