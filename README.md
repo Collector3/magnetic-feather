@@ -74,7 +74,7 @@ In most configurations, only one hex screw is needed. Tighten carefully, as neig
 
 On the ESP32: Nominal consumption with the default program (which scans for SSIDs) is around 130mA (burst). With the enable pin pulled low, quiescent power consumption is around 100μA.
 
-With a full battery, using the enable pin to limit consumption drains a 350 mAh battery in about 100 days (optimisic estimate with an adjustment factor of 0.7).
+With a full battery, using the enable pin to limit consumption drains a 350 mAh battery in about 100 days (optimistic estimate with an adjustment factor of 0.7).
 
 ### Fin
 
