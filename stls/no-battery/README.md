@@ -1,3 +1,3 @@
-# magnetic feather (no battery case)
+# magnetic feather (no battery compartment)
 
-These are magnetic feather cases with the battery compartment removed. It currently recycles both the reset button and magnet retainer that can be found in the stls/ directory.
+This is a magnetic case with the battery compartment removed. The reset button and magnet retainer are shared with the other parts (look for them in stl/).
