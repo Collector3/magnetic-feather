@@ -23,7 +23,7 @@ Flexible enough to use from development to deployment.
 
 * 1x Adafruit Feather (ESP8266, Bluefruit, ESP32, Adalogger 32u4 were used during prototyping/building)
 
-* 2x M2.5 x 6mm socket head cap screw (source: [Trimcraft Aviation RC](https://www.trimcraftaviationrc.com/index.php?route=product/product&product_id=182) )
+* 2x M2.5 x 6mm socket head cap screws (source: [Trimcraft Aviation RC](https://www.trimcraftaviationrc.com/index.php?route=product/product&product_id=182))
 
 #### Battery (optional)
 
@@ -52,6 +52,8 @@ Print these parts:
 #### Battery
 
 After printing all three parts, place the battery in first. The battery wiring can be routed through the front of the case, and looped up the side to the Feather's JST header. If desired, add a small zip tie (for a bit of strain relief) on the front of the case.
+
+For the visually inclined, photos are provided below.
 
 #### Badge magnet and retainer
 
