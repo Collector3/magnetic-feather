@@ -1,6 +1,7 @@
 # Magnetic Feather Case
 
-A case with room for a magnet and battery. Designed for [Adafruit's Feather series](https://learn.adafruit.com/adafruit-feather/overview). Flexible enough to use from development to deployment.
+A case that sticks with you. Designed for [Adafruit's Feather series](https://learn.adafruit.com/adafruit-feather/overview). 
+Flexible enough to use from development to deployment.
 
 ![Case With Feather Wing Attached](png/blue-covered-powered.png)
 
@@ -12,18 +13,19 @@ A case with room for a magnet and battery. Designed for [Adafruit's Feather seri
 
 * Support for Adafruit's stackable Feather wings
 
-* Cable management / routing slots
+* Cable management and routing slots
 
 * Upside down board support (battery version only)
-### Materials
+
+### Materials Required
 
 #### Feather + Screws
 
 * 1x Adafruit Feather (ESP8266, Bluefruit, ESP32, Adalogger 32u4 were used during prototyping/building)
 
-* 2x M2.5 x 6mm socket head cap screw (up to 12mm length should work too, but is untested -- one screw per case also works too)
+* 2x M2.5 x 6mm socket head cap screw (source: [Trimcraft Aviation RC](https://www.trimcraftaviationrc.com/index.php?route=product/product&product_id=182) )
 
-#### Battery
+#### Battery (optional)
 
 * 1x Lithium Ion Polymer Battery - 3.7v 350mAh 552035 - [PKCell 552035, Adafruit](https://www.adafruit.com/product/2750). There are shipping restrictions on lithium polymer batteries, so a local source with the same model/dimensions might be more suitable.
 
@@ -31,19 +33,47 @@ A case with room for a magnet and battery. Designed for [Adafruit's Feather seri
 
 * 1x Badge Magnet - [Amazon 10-pack](https://www.amazon.com/totalElement-Magnetic-Fastener-Adhesive-10-Pack/dp/B00EHK287M) -- the one [sold by Adafruit is tested as well](https://www.adafruit.com/product/1170)
 
-* 1x 1.75mm filament, cut to length for the magnet retainer slot
+### Printing
 
-* Glue/epoxy (optional) to fix the filament in place
+Print these parts:
+
+* 1x - Case (choose between the battery and non-battery version)
+
+* 1x - Cover (choose between the JST access and more enclosed version)
+
+* 1x - Magnet retainer
+
+* 1x - Reset button
+
+* 2x - M2.5 plastic spacers
 
 ### Assembly
 
-After printing all three parts, place the LiPoly battery in first. The battery wiring can be routed through the case, and looped up to the Feather's JST header. If desired, add a small zip tie (for a bit of strain relief) on the front of the case.
+#### Battery
 
-The badge magnet goes into the case with the warning symbols facing up. Insert the cut filament and glue (if desired) into the retainer slot.
+After printing all three parts, place the battery in first. The battery wiring can be routed through the front of the case, and looped up the side to the Feather's JST header. If desired, add a small zip tie (for a bit of strain relief) on the front of the case.
 
-Finally, add the Feather PCBA into the case, ensuring the board seats into the case's rear notches fully. Carefully press the board down in front. Screw the Feather down in front with a M2.5 hex screw. The LEDs will be in close proximity to the screw heads, but should not interfere.
+#### Badge magnet and retainer
 
-Attach the button to the lid. It requires a bit of force.
+The badge magnet goes into the case with the warning symbols facing up. 
+
+For magnets with a metal-only plate: Insert the magnet retainer with the 1st printed layer facing upward. 
+
+For magnets with a plastic backing: Flip the magnet retainer over so that the last printed layer faces upwards.
+
+Press the retainer through the clips. The retainer should click in and press against the magnet. If there is space between the retainer and magnet, the retainer might need to be flipped over.
+
+#### Feather PCB
+
+Finally, add the Feather PCB into the case, ensuring the board seats into the case's rear notches fully. Carefully press the board down in front. 
+
+Attach a printed spacer to a screw by screwing it on.
+
+Finally, attach the screw to the Feather PCB. The LEDs will be in close proximity to the screw heads, but should not interfere.
+
+#### Reset Button
+
+Attach the button to the lid. It requires a bit of force, so the best way may be to either shave off a bit of filament on the button with a file, or to press it in by tapping the cover onto the button.
 
 ### Photos
 
@@ -61,15 +91,15 @@ Depending on the Feather/PCB, it may be possible to use a Feather "upside down" 
 
 There is no cover for this configuration -- the JST jack is also obstructed.
 
-![ESP32 + ESP8266](png/esp32_esp8266.png)
+![ESP32 upside down + ESP8266 side by side](png/esp32_esp8266.png)
 
-![ESP32](png/esp32-solo.png)
+![ESP32 without a cover on and one screw](png/esp32-solo.png)
 
-In most configurations, only one hex screw is needed. Tighten carefully, as neighboring parts are sometimes a whisker's width away.
+In most configurations, only one hex screw is needed. If the head of the screw gets in the way, try printing the ***M2.5 plastic spacer***, which should provide enough clearance to avoid the LEDs and cover closure.
 
 ### Using the Enable Pin To Disconnect Power
 
-![ESP32 Enable Pin](png/esp32-enable-pin.png)
+![ESP32 Enable Pin Photo](png/esp32-enable-pin.png)
 
 On the ESP32: Nominal consumption with the default program (which scans for SSIDs) is around 130mA (burst). With the enable pin pulled low, quiescent power consumption is around 100μA.
 
@@ -77,9 +107,7 @@ With a full battery, using the enable pin to limit consumption drains a 350 mAh 
 
 ### Fin
 
-![ESP32 magnetic personality](png/esp32-magnetic-personality-2.png)
-
-
+![Final image](png/esp32-magnetic-personality-2.png)
 
 More resources:
 
