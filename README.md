@@ -79,6 +79,10 @@ Attach the button to the lid. It requires a bit of force, so the best way may be
 
 ### Photos
 
+![Badge magnet with printed retainer](png/badge_magnet_retainer.png)
+
+The badge magnet is held in by a printed retainer. It is quite strong (this particular one has survived a few hard drops), and should be easy to insert after the badge magnet has been seated in the case. Be sure that it clicks into place fully and that there is little to no movement of the magnet.
+
 ![Attached Feather Wing with battery](png/blue-covered-battery-attached-wing.png)
 
 Assembled case with a Feather and Feather wing attached. The battery wiring is routed through the case, past a point where a small zip tie can be used to fix the wires in place.
