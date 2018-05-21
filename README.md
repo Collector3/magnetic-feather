@@ -1,6 +1,6 @@
 # Magnetic Feather Case
 
-A case that sticks with you. Designed for [Adafruit's Feather series](https://learn.adafruit.com/adafruit-feather/overview). 
+Designed for [Adafruit's Feather series](https://learn.adafruit.com/adafruit-feather/overview). 
 Flexible enough to use from development to deployment.
 
 ![Case With Feather Wing Attached](png/blue-covered-powered.png)
